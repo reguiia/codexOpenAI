@@ -7,7 +7,7 @@
     "format": "prettier --check *.json *.md .github/workflows/*.yml",
     "format:fix": "prettier --write *.json *.md .github/workflows/*.yml",
     "build": "pnpm --filter @openai/codex run build",
-    "start": "npx codex \"generate a README file\""
+    "start": "npx codex \"generate a README file\"",
     "test": "pnpm --filter @openai/codex run test",
     "lint": "pnpm --filter @openai/codex run lint",
     "lint:fix": "pnpm --filter @openai/codex run lint:fix",
